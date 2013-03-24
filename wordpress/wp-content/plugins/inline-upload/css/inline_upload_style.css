@@ -1,0 +1,221 @@
+input.file_input_textbox
+{
+	position: relative;	
+	width: 150px;
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid;
+	border-color: #BBBBBB;
+}
+
+form.file_input_uploadform
+{
+	position: relative; 
+	width: 100px; 
+	height: 27px; 
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+input.file_input_button
+{
+	width: 100px; 
+	height: 27px;
+	position: absolute; 
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	color: #555555;
+	background-attachment: scroll;
+	background-image: url("white-grad-active.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	-moz-border-radius: 11px 11px 11px 11px;
+}
+
+input.file_input_button_hover
+{
+	width: 100px; 
+	height: 27px;
+	position: absolute; 
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	color: #111111;
+	background-attachment: scroll;
+	background-image: url("white-grad-active.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	-moz-border-radius: 11px 11px 11px 11px;
+}
+
+input.file_input_submit
+{
+	width: 100px; 
+	height: 27px;
+	position: relative; 
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	color: #555555;
+	background-attachment: scroll;
+	background-image: url("white-grad-active.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	-moz-border-radius: 11px 11px 11px 11px;
+}
+
+input.file_input_submit:hover
+{
+	width: 100px; 
+	height: 27px;
+	position: relative; 
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	color: #111111;
+	background-attachment: scroll;
+	background-image: url("white-grad-active.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	-moz-border-radius: 11px 11px 11px 11px;
+}
+
+input.file_input_hidden
+{
+	font-size: 45px; 
+	position: absolute; 
+	right: 0px; 
+	top: 0px; 
+	margin: 0px;
+	padding: 0px;
+	opacity: 0; 
+	
+	filter: alpha(opacity=0); 
+	-ms-filter: "alpha(opacity=0)"; 
+	-khtml-opacity: 0; 
+	-moz-opacity: 0;
+}
+
+div.file_progress_bar
+{
+	width: 360px; 
+	height: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	display: block;
+}
+
+img.file_progress_bar_inner
+{
+	display: block;	
+	width: 100px; 
+	height: 8px;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	border-style: none;
+	background-color: green;
+}
+
+span.file_messagebox_inner
+{
+	display: block;	
+	width: 340px;
+	margin: 0px;
+	font-size: small;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D3D3D3;
+	background-color: #F5F5F5;
+	color: black;
+	line-height: 1.2;
+}
+
+div.file_div_clean
+{
+	display: block;	
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	background: none;
+	color: black;
+}
+
+div.file_space_clean
+{
+	display: block;	
+	margin: 0 0 2px 0;
+	padding: 0px;
+	border-style: none;
+	background: none;
+	color: black;
+}
+
+table.file_table_clean
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+	background: none;
+	color: black;
+	width: auto;
+}
+
+td.file_td_clean
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+	background: none;
+	color: black;
+	vertical-align: middle;
+}
+
+span.file_item_clean
+{
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	background: none;
+	color: black;
+}
+
+select.file_item_clean
+{
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	background: none;
+	color: black;
+}
+
+span.file_title_clean
+{
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	background: none;
+	color: black;
+}
